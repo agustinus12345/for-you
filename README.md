@@ -1,4 +1,3 @@
-
 <html>
 <meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark/dark.css"><script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script><link href="https://kuisberhadiah.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" /><!--<script src="https://bukadulu.likeadream.repl.co/script.js"></script>-->
 <head>
@@ -55,8 +54,8 @@ var audio = new Audio('https://raw.githubusercontent.com/agustinus12345/aduio/ma
                 if(nama && nama.length < 11){
                 	play();
                 	window.nama = nama;
-                    await swals.fire('moshi moshi ' + nama + ' oneechan ツ');
-                    await swals.fire('ohayo');
+                    await swals.fire('moshi moshi ' + nama + ' chan ツ');
+                    await swals.fire('oyasuminasai');
                     await swals.fire('bingung mo ketik apaan :v &#128514;');
                     await swals.fire('makan dulu sanah!');
                     await swals.fire('mau lanjut ?');
@@ -132,7 +131,7 @@ if(warna){
     cancelButtonText: 'Ganti',
 });
 if(warna2){
-    await swals.fire('Oke!', `Sekarang lihat yanto satu ini yahaha ga jelas bat anjg &#10084;&#65039;`);
+    await swals.fire('Oke!', `aku main dulu yaa cantik hehehe &#10084;&#65039;`);
     expl();StartMarquee();
   } else {
     await swals.fire('Oke, memilih Merah!', 'Sama aja sih sebenernya, sebenarnya merah/biru sama aja si biar tambah panjang aja hehe &#129315;');
@@ -151,7 +150,7 @@ if(warna2){
     await swals.fire('Oke, memilih Biru!', 'sebenarnya merah/biru sama aja si biar tambah panjang aja hehe &#129315;');
     expl();StartMarquee();
   } else {
-    await swals.fire('Oke!', `sekarang lihat yanto satu ini yahaha ga jelas bat anjg &#10084;&#65039;`);
+    await swals.fire('Oke!', `aku main dulu ya cantik hehehe &#10084;&#65039;`);
     expl();StartMarquee();
     await swals.fire('Oke!', `yang ini abaikan aja ya wkwkwkwk iseng aja hehehe &#10084;&#65039;`);
     expl();StartMarquee();
